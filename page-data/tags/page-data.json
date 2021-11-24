@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tag-list-jsx",
     "path": "/tags",
-    "result": {"data":{"allMdx":{"group":[{"fieldValue":"Anki","totalCount":3},{"fieldValue":"features","totalCount":1},{"fieldValue":"gatsby-garden","totalCount":1}]}},"pageContext":{}},
+    "result": {"data":{"allMdx":{"group":[{"fieldValue":"Anki","totalCount":4},{"fieldValue":"features","totalCount":1},{"fieldValue":"gatsby-garden","totalCount":1}]}},"pageContext":{}},
     "staticQueryHashes": ["1408915841","342892192"]}
