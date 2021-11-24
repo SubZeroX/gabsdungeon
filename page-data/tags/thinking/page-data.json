@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tag-jsx",
     "path": "/tags/thinking",
-    "result": {"data":{"allMdx":{"totalCount":1,"edges":[{"node":{"excerpt":"Real thinking requires some type of externalization. Notebook, mind maps, text editor, etc.","fields":{"slug":"/externalize-your-thinking","title":"Externalize Your Thinking","date":"2021-11-24T15:52:57.022Z","excerpt":null},"frontmatter":{"tags":["zettelkasten","learning","thinking","notes"]}}}]}},"pageContext":{"tag":"thinking","pageNumber":0,"humanPageNumber":1,"skip":0,"limit":10,"numberOfPages":1,"previousPagePath":"","nextPagePath":""}},
+    "result": {"data":{"allMdx":{"totalCount":1,"edges":[{"node":{"excerpt":"Real thinking requires some type of externalization. Notebook, mind maps, text editor, etc.","fields":{"slug":"/externalize-your-thinking","title":"Externalize Your Thinking","date":"2021-11-24T17:38:39.992Z","excerpt":null},"frontmatter":{"tags":["zettelkasten","learning","thinking","notes"]}}}]}},"pageContext":{"tag":"thinking","pageNumber":0,"humanPageNumber":1,"skip":0,"limit":10,"numberOfPages":1,"previousPagePath":"","nextPagePath":""}},
     "staticQueryHashes": ["1408915841","342892192"]}
