@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-sitemap-jsx",
     "path": "/sitemap/2",
-    "result": {"data":{"notes":{"edges":[{"node":{"excerpt":"Talvez seja útil abrir essa imagem em uma nova guia para poder visualiza-la melhor.","fields":{"slug":"/como-recuperar-uma-informaco-excluida-no-anki","title":"Como recuperar uma informação excluida no Anki","date":"2021-11-24T17:54:51.795Z","excerpt":null},"frontmatter":{"tags":null}}}]}},"pageContext":{"pageNumber":1,"humanPageNumber":2,"skip":10,"limit":10,"numberOfPages":2,"previousPagePath":"/sitemap","nextPagePath":""}},
+    "result": {"data":{"notes":{"edges":[{"node":{"excerpt":"Talvez seja útil abrir essa imagem em uma nova guia para poder visualiza-la melhor.","fields":{"slug":"/o-basico-do-anki","title":"O básico do Anki","date":"2021-11-24T18:01:48.379Z","excerpt":null},"frontmatter":{"tags":null}}}]}},"pageContext":{"pageNumber":1,"humanPageNumber":2,"skip":10,"limit":10,"numberOfPages":2,"previousPagePath":"/sitemap","nextPagePath":""}},
     "staticQueryHashes": ["1408915841","342892192"]}
