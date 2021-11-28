@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tag-list-jsx",
     "path": "/tags",
-    "result": {"data":{"allMdx":{"group":[{"fieldValue":"Anki","totalCount":8}]}},"pageContext":{}},
+    "result": {"data":{"allMdx":{"group":[{"fieldValue":"Anki","totalCount":9}]}},"pageContext":{}},
     "staticQueryHashes": ["1408915841","342892192"]}
