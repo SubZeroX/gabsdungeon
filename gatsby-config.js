@@ -1,8 +1,8 @@
 module.exports = {
-  // pathPrefix: `/notes`, // If your Digital Garden is not published at the root of your website, use this.
+  pathPrefix: `/gabsdungeon`, // If your Digital Garden is not published at the root of your website, use this.
   siteMetadata: {
-    title: `Gatsby Garden`,
-    description: `A Digital Garden Tended by Gatsby`,
+    title: `Gab's dungeon`,
+    description: `Uma coleção de tutoriais, links e guias com o objetivo de pensar com a porta da frente aberta`,
 
     // siteUrl: `https://yoursite.com/notes/`, // URL at which your site will be published. This should be present if you want RSS feed.
     // headerMenu: [ // Top Navbar items
