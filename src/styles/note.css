@@ -1,4 +1,4 @@
-@import "variables.css";
+@import 'variables.css';
 
 .note-area .note-title {
   margin: 0 5px;
@@ -16,10 +16,10 @@
   padding: 0;
 }
 .note-area .note-tags li::after {
-  content: ", ";
+  content: ', ';
 }
 .note-area .note-tags li:last-child:after {
-  content: "";
+  content: '';
 }
 
 .note-references,
@@ -54,7 +54,7 @@
   border-left: 10px solid var(--border);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+  quotes: '\201C''\201D''\2018''\2019';
 }
 .note-content blockquote::before {
   color: var(--border);
@@ -82,10 +82,11 @@
 .note-area .note-excerpt {
   margin: 0;
 }
-.note-meta p, .note-meta div {
+.note-meta p,
+.note-meta div {
   margin: 0;
-  opacity: .8;
-  font-size: .9em;
+  opacity: 0.8;
+  font-size: 0.9em;
 }
 .note-list .note-tag-list {
   margin: 0;
@@ -99,4 +100,10 @@
 }
 .note-list .note-area:nth-child(odd) {
   background-color: var(--bg-sub);
+}
+
+.wrapperCode code {
+  overflow: auto;
+  height: 150px;
+  user-select: all;
 }
