@@ -3,19 +3,23 @@ tags:
   - Anki
 ---
 
-+ ![](https://i.imgur.com/1m3wvNT.png)
-+ ![](https://i.imgur.com/IrFSj37.png)
+- ![](https://i.imgur.com/1m3wvNT.png)
+- ![](https://i.imgur.com/IrFSj37.png)
+
 1. Instale o addon "Enhance main window": https://ankiweb.net/shared/info/877182321
 2. Vá em Ferramentas → Addons
-	1. ![](https://i.imgur.com/1Lz9ZFV.png)
+   1. ![](https://i.imgur.com/1Lz9ZFV.png)
 3. Clique em "Enhance main windows" e depois em "Configurações"
-	1. ![](https://i.imgur.com/wS7hMXF.png)
+   1. ![](https://i.imgur.com/wS7hMXF.png)
 4. Agora você tem duas opções de design:
 
 ## Opção 1
-+ ![](https://i.imgur.com/IrFSj37.png)
-+ Esse modelo foi originalmente criado pela Dani e gentilmente cedido.
-+ Substitua o código que aparecer por esse e, logo após, reinicie o [[Anki]]:
+
+- ![](https://i.imgur.com/IrFSj37.png)
+- Esse modelo foi originalmente criado pela Dani e gentilmente cedido.
+- Substitua o código que aparecer por esse e, logo após, reinicie o [[Anki]]:
+
+<div class="wrapperCode">
 
 ```
 {
@@ -434,9 +438,17 @@ tags:
 }
 ```
 
+</div>
+
 ## Opção 2
-+ ![](https://i.imgur.com/1m3wvNT.png)
-+ Versão criada pelo @cjdduarte 
+
+- ![](https://i.imgur.com/1m3wvNT.png)
+- Versão criada pelo @cjdduarte
+
+<div class="wrapperCode">
+
 ```
 {"name": "Enhance main window", "mod": 1588525124, "min_point_version": 0, "max_point_version": -26, "branch_index": 0, "config": {"book symbol": "{", "cap value": null, "color empty": "red", "color empty descendant": "green", "color zero": false, "columns": [{"absolute": true, "color": "blue", "description": "Cart\u00f5es novos para hoje", "header": "NovHoje", "name": "new today", "overlay": "Cart\u00f5es novos para hoje", "percent": false, "present": true, "subdeck": true}, {"absolute": true, "color": "green", "description": "Cart\u00f5es em aprendizagem para hoje <br/> ou o tempo em minutos para retorno", "header": "AprHoje", "name": "learning now", "overlay": "Cart\u00f5es em aprendizagem para hoje <br/> ou o tempo em minutos para retorno", "percent": false, "present": true, "subdeck": true}, {"absolute": true, "color": null, "description": "Cards in learning which are due now (and in parenthesis, the number of reviews which are due later)", "header": "LearnAll", "name": "learning all", "overlay": "Cartas em aprendizado que vencem agora (e entre par\u00eanteses, o n\u00famero de resenhas que s\u00e3o devidas depois)", "percent": false, "present": false, "subdeck": true}, {"absolute": true, "color": "green", "description": "Cart\u00f5es em revis\u00e3o previstos para hoje", "header": "RevHoje", "name": "review today", "overlay": "Cart\u00f5es em revis\u00e3o previstos para hoje", "percent": false, "present": true, "subdeck": true}, {"absolute": true, "color": "red", "description": "Total de cart\u00f5es previstos hoje", "header": "(Hoje)", "name": "today", "overlay": "Total de cart\u00f5es previstos hoje", "percent": false, "present": true, "subdeck": true}, {"absolute": true, "color": "darkgray", "description": "Cart\u00f5es suspensos <br/> (voc\u00ea nunca os ver\u00e1 a menos que desmarque-os no painel)", "header": "Suspen", "name": "suspended", "overlay": "Cart\u00f5es suspensos <br/> (voc\u00ea nunca os ver\u00e1 a menos que desmarque-os no painel)", "percent": false, "present": true, "subdeck": true}, {"absolute": true, "color": "orange", "description": "Cart\u00f5es ocultos <br/> (Cart\u00f5es que voce decidiu n\u00e3o ver hoje)", "header": "OcultFut", "name": "buried", "overlay": "Cart\u00f5es ocultos <br/> (Cart\u00f5es que voce decidiu n\u00e3o ver hoje)", "percent": false, "present": true, "subdeck": true}, {"absolute": true, "color": "orange", "description": "Cart\u00f5es represados <br/> (limita\u00e7\u00e3o di\u00e1ria configurada no deck)", "header": "RepresFut", "name": "review later", "overlay": "Cart\u00f5es represados <br/> (limita\u00e7\u00e3o di\u00e1ria configurada no deck)", "percent": false, "present": true, "subdeck": true}, {"absolute": true, "color": "orange", "description": "Cart\u00f5es em aprendizagem <br/> que retornar\u00e3o futuramente", "header": "AprFut", "name": "learning later", "overlay": "Cart\u00f5es em aprendizagem <br/> que retornar\u00e3o futuramente", "percent": false, "present": true, "subdeck": true}, {"absolute": true, "color": "orange", "description": "Cart\u00f5es em revis\u00e3o <br/> que retornar\u00e3o futuramente", "header": "RevFut", "name": "undue", "overlay": "Cart\u00f5es em revis\u00e3o <br/> que retornar\u00e3o futuramente", "percent": false, "present": true, "subdeck": true}, {"absolute": true, "color": "blue", "description": "Cart\u00f5es novos que <br/> n\u00e3o ser\u00e3o vistos hoje", "header": "NovFut", "name": "unseen later", "overlay": "Cart\u00f5es novos que <br/> n\u00e3o ser\u00e3o vistos hoje", "percent": false, "present": true, "subdeck": true}, {"absolute": true, "color": "black", "description": "Numero total de <br/> cart\u00f5es no baralho", "header": "Total", "name": "cards", "overlay": "Numero total de <br/> cart\u00f5es no baralho", "percent": false, "present": true, "subdeck": true}, {"absolute": true, "color": "magenta", "description": "Number of cards seen today and of review", "header": "Rev/Rep", "name": "reviewed today/repeated today", "overlay": "N\u00famero de cart\u00f5es revisado hoje / repetido hoje", "percent": false, "present": false, "subdeck": true}, {"description": "Percent bar to do today", "header": "Today", "name": "bar", "names": ["review today", "learning card", "new today", "reviewed today"], "overlay": null, "present": false, "subdeck": true}, {"description": "Percent bar showing the decks's repartition", "header": "Total", "name": "bar", "names": ["mature", "young", "learning card", "unseen", "buried", "suspended"], "overlay": null, "present": false, "subdeck": true}, {"absolute": true, "color": "green", "description": "Review cards which are due tomorrow", "header": "Rev+1", "name": "due tomorrow", "overlay": "Cart\u00f5es que ser\u00e3o entregues amanh\u00e3", "percent": false, "present": true, "subdeck": true}], "default column color": "grey", "do color empty": true, "do color marked": true, "dot in numbers": true, "end symbol": ";", "ended marked background color": "yellow", "given up symbol": "/", "hide values of parent decks": false, "hide values of parent decks when subdecks are shown": false, "marked background color": "powderblue", "option": true, "pause symbol": "="}, "disabled": false, "conflicts": []}
 ```
+
+</div>
